@@ -1,0 +1,79 @@
+body{
+    font-family: arial;
+    background-image: url('todo.png');
+    background-size: cover;  
+}
+#page{
+    background-color: rgba(143, 171, 220, 0.497);
+    height: 100vb;
+    width: 90%;
+    margin: 3% 5% 3% 5%;
+    border-radius: 20px;
+}
+#todo-heading{
+    text-align: center;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#e6e1d4, #399b3e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #d2b53d, 0 2px 0 #ccc,
+                0 5px 0 #38a79f, 0 6px 0 #78296a,
+                0 20px 30px rgb(41, 117, 142);
+}
+.grid-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 220px 190px 200px 110px;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color:rgb(33, 80, 76);
+
+}
+.heads{
+    color: rgb(251, 255, 0);
+    font-weight: 550;
+    letter-spacing: 0.5mm
+}
+#todo-input, #todo-date, #todo-time{
+padding: 10px 5px;
+font-size: 15px;
+}
+#add-but{
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(58, 202, 50);
+    cursor: pointer;
+    color: azure;
+    border-bottom: 3px solid rgb(71, 93, 102);
+    border-right: 3px solid rgb(71, 93, 102);
+    transition: all 0.1s ease ;
+}
+#delete-but{
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(202, 18, 18);
+    cursor: pointer;
+    color:azure;
+    border-bottom: 3px solid rgb(71, 93, 102);
+    border-right: 3px solid rgb(71, 93, 102);
+    transition: all 0.1s ease ;
+}
+#delete-but:hover{
+    border-bottom: 3px solid rgb(71, 93, 102);
+    border-left: 3px solid rgb(71, 93, 102);
+    border-right: none;
+}
+#add-but:hover{
+    border-bottom: 3px solid rgb(71, 93, 102);
+    border-left: 3px solid rgb(71, 93, 102);
+    border-right: none;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-Do List Project</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div id="page">
+    <h1 id="todo-heading">Todo List</h1>
+    <div class="heads grid-container">
+        <span>Task</span>
+        <span>Due Date</span>
+        <span>Due Time</span>
+        <!-- <span>Add Todo</span> -->
+    </div>
+    <div class="grid-container">
+    <input id="todo-input" type="text" placeholder="Enter Todo Here">
+    <input id="todo-date" type="date">
+    <input id="todo-time" type="time">
+    <button id="add-but" onclick="addTodo()">Add</button>
+    </div>
+   <div class="todo-container grid-container"></div>
+    <script src="todo.js"></script>
+</div>
+</body>
+</html>
